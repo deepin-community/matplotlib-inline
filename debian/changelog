@@ -1,0 +1,13 @@
+matplotlib-inline (0.1.3-1) unstable; urgency=medium
+
+  * New upstream version 0.1.3
+  * Standards-Version: 4.6.0
+  * Correct architecture any->all
+
+ -- Gordon Ball <gordon@chronitis.net>  Sat, 06 Nov 2021 14:59:00 +0000
+
+matplotlib-inline (0.1.2-1) unstable; urgency=medium
+
+  * Initial release. (Closes: #991874)
+
+ -- Gordon Ball <gordon@chronitis.net>  Mon, 09 Aug 2021 19:13:21 +0000
