@@ -4,3 +4,7 @@ export DH_VERBOSE=1
 
 %:
 	dh $@ --with python3 --buildsystem=pybuild
+
+# as of 0.1.6, there are no tests in the package,
+# so avoid trying to import the package modules to find them
+override_dh_auto_test:
